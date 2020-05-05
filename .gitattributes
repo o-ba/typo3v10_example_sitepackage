@@ -1,2 +1,5 @@
 /.gitattributes export-ignore
 /.gitignore export-ignore
+*.html linguist-detectable=false
+*.yaml linguist-detectable=false
+*.php linguist-detectable=true
