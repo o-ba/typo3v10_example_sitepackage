@@ -4,6 +4,12 @@ This is a site package extension and contains some examples regarding new featur
 examples are based on the presentation hold at [T3muc][2] on 05.05.2020. You can find the presentation in german and
 english here: ``/Documentation``.
 
+## Installation
+
+If you can install the extension with composer: ``composer require o-ba/typo3v10_example_sitepackage``.
+
+## Description
+
 Topics in this repository:
 - Site configuration shipped in site package extension
 - Using relative paths for imports in site configurations
@@ -35,10 +41,10 @@ functionalities:
 - ``o-ba/custom_dashboard_widgets``: Kickstarter extension for custom dashboard widgets
 - ``bk2k/bootstrap-package``: Bootstrap package for an easy and quick start
 
-#### Further notice
+## Further notice
 If you have any question or found a bug, please don't hesitate to create an issue or pull request.
 
-#### Credits
+## Credits
 Icons used in this repository are made by [Freepik][6] from [www.flaticon.com][7]
 
 [1]: http://typo3.org/
