@@ -1,0 +1,17 @@
+APIVersion: v1.14.1
+name: typo3v10
+type: typo3
+docroot: public
+php_version: "7.2"
+webserver_type: nginx-fpm
+router_http_port: "80"
+router_https_port: "443"
+xdebug_enabled: false
+additional_hostnames: []
+additional_fqdns: []
+provider: default
+use_dns_when_possible: true
+timezone: Europe/Berlin
+hooks:
+  post-start:
+    - exec-host: ddev launch /typo3

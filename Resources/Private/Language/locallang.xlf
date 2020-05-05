@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">>
+    <file t3:id="1588708800" source-language="de" datatype="plaintext" original="messages" date="2020-05-05T20:00:00Z" product-name="typo3v10_example_sitepackage">
+        <header/>
+        <body>
+            <trans-unit id="widgets.t3muc.button.label" xml:space="preserve">
+				<source>Visit the website</source>
+			</trans-unit>
+            <trans-unit id="widgets.t3muc.text" xml:space="preserve">
+				<source>
+                    Die TYPO3 Usergroup München trifft sich jeden ersten Dienstag im Monat um 19 Uhr im Kulturzentrum
+                    Giesinger Bahnhof in München-Giesing. Wir stehen allen TYPO3 und Webinteressierten offen.
+                </source>
+			</trans-unit>
+            <trans-unit id="widgets.t3muc.title" xml:space="preserve">
+				<source>T3muc</source>
+			</trans-unit>
+            <trans-unit id="widgets.t3muc.description" xml:space="preserve">
+				<source>Show some information about T3muc</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

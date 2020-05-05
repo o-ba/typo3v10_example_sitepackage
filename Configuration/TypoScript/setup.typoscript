@@ -1,0 +1,21 @@
+module.tx_backend.view.partialRootPaths.700 = EXT:typo3v10_example_sitepackage/Resources/Private/Partials/
+
+lib.contentElement.templateRootPaths.20 = EXT:typo3v10_example_sitepackage/Resources/Private/Templates/ContentElements/
+
+lib.contentElement.dataProcessing.1588708800 = TYPO3\CMS\Frontend\DataProcessing\SiteProcessor
+lib.contentElement.dataProcessing.1588708800 {
+  as = site
+}
+
+module.tx_form.settings.yamlConfigurations.1588708800 = EXT:typo3v10_example_sitepackage/Configuration/Form/Setup.yaml
+
+[feature("redirects.hitCount")]
+  page.meta {
+    redirect-hits = they are still counting ...
+  }
+[END]
+
+config.htmlTag.attributes {
+  custom-attribute = some value
+  amp =
+}

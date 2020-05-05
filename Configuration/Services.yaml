@@ -1,0 +1,25 @@
+services:
+
+  dashboard.buttons.t3muc:
+    class: 'TYPO3\CMS\Dashboard\Widgets\Provider\ButtonProvider'
+    arguments:
+      $title: 'LLL:EXT:typo3v10_example_sitepackage/Resources/Private/Language/locallang.xlf:widgets.t3muc.button.label'
+      $link: 'http://www.mtug.de/'
+      $target: '_blank'
+
+  dashboard.widget.t3muc:
+    class: 'TYPO3\CMS\Dashboard\Widgets\CtaWidget'
+    arguments:
+      $view: '@dashboard.views.widget'
+      $buttonProvider: '@dashboard.buttons.t3muc'
+      $options:
+        text: 'LLL:EXT:typo3v10_example_sitepackage/Resources/Private/Language/locallang.xlf:widgets.t3muc.text'
+    tags:
+      - name: dashboard.widget
+        identifier: 't3muc'
+        groupNames: 'general'
+        title: 'LLL:EXT:typo3v10_example_sitepackage/Resources/Private/Language/locallang.xlf:widgets.t3muc.title'
+        description: 'LLL:EXT:typo3v10_example_sitepackage/Resources/Private/Language/locallang.xlf:widgets.t3muc.description'
+        iconIdentifier: 'content-widget-text'
+        height: 'small'
+        width: 'medium'

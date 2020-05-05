@@ -19,5 +19,14 @@
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bo\\TYPO3v10ExampleSitepackage\\": "Classes/"
+        }
+    },
+    "suggest": {
+        "o-ba/custom_dashboard_widgets": "Kickstarter extension for custom dashboard widgets",
+        "bk2k/bootstrap-package": "Bootstrap package for an easy and quick start"
     }
 }

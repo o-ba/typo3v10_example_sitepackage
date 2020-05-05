@@ -1,0 +1,25 @@
+imports:
+  - { resource: "../../../build/generic/404.yaml" }
+
+rootPageId: 1
+websiteTitle: 'My new TYPO3 site'
+base: 'https://www.my-productive-site.com'
+baseVariants:
+  - { base: 'https://typo3v10.ddev.site', condition: 'applicationContext == "Development/Local"'}
+languages:
+  -
+    title: Deutschland
+    enabled: true
+    languageId: '0'
+    base: /
+    typo3Language: default
+    locale: de_DE.UTF-8
+    iso-639-1: de
+    navigationTitle: DE
+    hreflang: de
+    direction: ltr
+    flag: de
+    fallbackType: strict
+settings:
+  colorSchema: '#8e44ad'
+  privacyPid: 1

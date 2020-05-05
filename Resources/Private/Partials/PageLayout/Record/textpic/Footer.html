@@ -1,0 +1,23 @@
+<html xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers"
+      xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<div class="t3-page-ce-footer">
+    <div class="t3-page-ce-info">
+        <p>
+            Special "textpic" footer
+        </p>
+
+        <be:link.editRecord uid="{item.record.uid}"
+                            table="tt_content"
+                            fields="header,bodytext,image,hidden"
+                            title="Edit relevant fields from {item.record.header}"
+                            returnUrl="{be:moduleLink(route: 'web_layout', arguments:'{id: context.pageId}')}">
+
+            <core:icon identifier="actions-open" size="small" alternativeMarkupIdentifier="inline"/>
+            <strong>Edit relevant fields from "{item.record.header}"</strong>
+
+        </be:link.editRecord>
+
+    </div>
+</div>
+</html>

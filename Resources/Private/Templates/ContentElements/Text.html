@@ -1,0 +1,22 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+
+    <f:asset.css identifier="ce-text-css">
+        .ce-text p{
+            font-size: 30px;
+            font-weight: bold;
+            color: {site.configuration.settings.colorSchema};
+        }
+    </f:asset.css>
+
+    <f:asset.script identifier="ce-text-js">
+        alert('Is only shown if a content element "text" is present.');
+    </f:asset.script>
+
+    <div class="ce-{data.CType}">
+        <f:format.html>{data.bodytext}</f:format.html>
+    </div>
+
+</f:section>
+</html>
