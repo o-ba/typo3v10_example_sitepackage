@@ -1,0 +1,3 @@
+# TYPO3 Extension ``typo3v10_example_sitepackage``
+
+More will follow soon...

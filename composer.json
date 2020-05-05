@@ -1,0 +1,23 @@
+{
+    "name": "o-ba/typo3v10_example_sitepackage",
+    "description": "Site package extension for TYPO3 10 feature demonstration",
+    "type": "typo3-cms-extension",
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "license": "GPL-3.0",
+    "keywords": ["TYPO3 CMS", "10", "site package"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Oliver Bartsch",
+            "email": "bo@cedev.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "typo3/cms-core": "^10.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
