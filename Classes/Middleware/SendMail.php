@@ -15,6 +15,11 @@ use TYPO3\CMS\Core\Mail\Mailer;
 use TYPO3\CMS\Core\Mail\MailMessage;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
+/**
+ * Send mails using the new Mailer API
+ *
+ * @author Oliver Bartsch <bo@cedev.de>
+ */
 class SendMail implements MiddlewareInterface
 {
     /**
@@ -55,6 +60,6 @@ class SendMail implements MiddlewareInterface
 
         }
 
-            return $handler->handle($request);
+        return $handler->handle($request);
     }
 }
