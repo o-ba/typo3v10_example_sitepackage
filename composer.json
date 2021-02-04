@@ -6,7 +6,6 @@
     "prefer-stable": false,
     "license": "GPL-3.0",
     "keywords": ["TYPO3 CMS", "10", "site package"],
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Oliver Bartsch",
